@@ -7,59 +7,61 @@
 
     <link rel="stylesheet" href="css/styles.css" />
 
+    <!-- Google Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
     <!-- Google Fonts -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Icons -->
-
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="resources/icons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="resources/icons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="resources/icons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="resources/icons/site.webmanifest" />
-
-    <title>MORPHISM</title>
+    <title>fivver</title>
   </head>
   <body>
-    <nav>
-      <h1>MORPHISM</h1>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <header class="navbar">
+      <a href="#" class="logo">
+        <img src="/resources/icons/logo.svg" alt="Fivver Logo" />
+      </a>
+      <ul class="menu-links">
+        <li><a href="#">Fivver Business</a></li>
+        <li><a href="#">Explore</a></li>
+        <li class="language-item">
+          <a href="#">
+            <span class="material-symbols-outlined">language</span>
+            English
+          </a>
+        </li>
+        <li><a href="#">Become a seller</a></li>
+        <li><a href="#">Sign In</a></li>
+        <li class="join-btn"><a href="#">Join us</a></li>
       </ul>
-    </nav>
+    </header>
 
-    <script
-      src="https://kit.fontawesome.com/20de187547.js"
-      crossorigin="anonymous"
-    ></script>
+    <section class="hero-section">
+      <div class="content">
+        <h1>Find the right freelance service, right away</h1>
+        <form action="#" class="search-main">
+          <input type="text" placeholder="Search for any service..." required />
+          <button type="submit" class="material-symbols-outlined">
+            search
+          </button>
+        </form>
+        <div class="popular-tags">
+          Popular
+          <ul class="tags">
+            <li><a href="#"></a>Website Design</li>
+            <li><a href="#"></a>Logo Design</li>
+            <li><a href="#"></a>Wordpress</li>
+            <li><a href="#">AI Design</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
