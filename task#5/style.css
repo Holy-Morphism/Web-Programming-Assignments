@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#ans {
+  height: 100px;
+  width: max-content;
+  margin: 1rem 0rem;
+
+  color: red;
+}
