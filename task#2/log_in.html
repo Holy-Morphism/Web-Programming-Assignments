@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Log In</title>
+  </head>
+  <body>
+    <form onsubmit="return validateForm()">
+      <h1>Log In</h1>
+      <p>Don't have an account? <a href="sign_in.html">Sign Up</a></p>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+
+      <button type="submit">Log In</button>
+    </form>
+
+    <script>
+      function validateForm() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username === "") {
+          alert("Please enter a username");
+          return false;
+        }
+
+        if (password === "") {
+          alert("Please enter a password");
+          return false;
+        }
+
+        return true;
+      }
+    </script>
+  </body>
+</html>
