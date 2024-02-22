@@ -1,0 +1,32 @@
+.hero-section {
+  background-color: grey;
+  border-radius: 10px;
+  height: 350px;
+  margin: 20px 0px;
+  color: black;
+  opacity: 0.8;
+  padding: 100px 50px;
+}
+
+.hero-section button {
+  width: 50%;
+}
+
+.para-section {
+  margin-top: 20px;
+}
+
+.card {
+  height: 300px;
+}
+
+.card img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.row {
+  gap: 20px;
+  font-display: flex;
+  justify-content: center;
+}
