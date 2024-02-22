@@ -10,8 +10,8 @@
 
 ### Log In
 
-![Log In Image](/task#2/log_in.png)
+![Log In Image](/task%232/log_in.png)
 
 ## Task 3
 
-![Website Image](/task#3/website.png)
+![Website Image](/task%233/website.png)
