@@ -58,10 +58,22 @@ label {
   font-family: Poppins, sans-serif;
 }
 
+input[type="date"],
 input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: var(--2nd-color);
+  color: var(--3rd-color);
+  border: 1px solid var(--3rd-color);
+  font-family: "Poppins", sans-serif;
+  border-radius: var(--br);
+}
+
+#gender {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
