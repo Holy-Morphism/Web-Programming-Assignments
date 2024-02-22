@@ -4,7 +4,7 @@
 
 ### Sign In Image
 
-![Sign In Image](/task#2/sign_in.png)
+![Sign In Image](task#2/sign_in.png)
 
 ## Task 3
 
