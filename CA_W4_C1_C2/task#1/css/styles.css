@@ -127,7 +127,6 @@ header {
 
 .hero-section .popular-tags {
   display: flex;
-
   color: #fff;
   gap: 24px;
   font-size: 0.9rem;
