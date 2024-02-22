@@ -1,39 +1,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Google Fonts -->
 
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com" />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
 
     <title>Sign In</title>
   </head>
   <body>
     <form>
-      <h1>
-        Sign In
-        <label class="switch">
-          <input
-            type="checkbox"
-            onclick="myFunction()" />
-          <span class="slider round"></span>
-        </label>
-      </h1>
+      <h1>Sign In</h1>
       <p>Already have an account? <a href="log_in.html">Log In</a></p>
       <label for="username">Username</label>
       <input
@@ -41,33 +25,28 @@
         id="username"
         name="username"
         placeholder="Must contain at least 3 characters"
-        required />
+        required
+      />
 
       <label for="email">Email</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        required />
+      <input type="email" id="email" name="email" required />
       <label for="password">Password</label>
       <input
         type="password"
         id="password"
         name="password"
         placeholder="Must contain special character and number"
-        required />
+        required
+      />
       <label for="confirm-password">Confirm Password</label>
       <input
         type="password"
         id="confirm-password"
         name="confirm-password"
-        required />
+        required
+      />
       <label for="phone">Phone Number</label>
-      <input
-        type="tel"
-        id="phone"
-        name="phone"
-        placeholder="123-45-678" />
+      <input type="tel" id="phone" name="phone" placeholder="123-45-678" />
       <button type="submit">Sign In</button>
     </form>
     <script>

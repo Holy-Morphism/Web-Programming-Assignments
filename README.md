@@ -1,20 +1,13 @@
-# Web Assignments
+# Assignment 1
 
-This repository contains the assignments for the Web course in the 6th semester.
+## Task 1
 
-## Task #1
+![Responsive Landing Page](/task%231/website.jpeg)
 
-The task #1 folder contains the following files:
+## Task 2
 
-- `index.html`: The main HTML file for task #1.
-- `css/styles.css`: The CSS file for styling the task #1 page.
-- `resources/icons`: A folder containing various icons used in the task #1 page.
-- `resources/images`: A folder containing GIF and AVIF images used in the task #1 page.
+### Sign In
 
-## Task #2
+![Sign In](/task%232/sign_in.jpeg)
 
-The task #2 folder contains the following files:
-
-- `log_in.html`: The HTML file for the login page of task #2.
-- `sign_in.html`: The HTML file for the sign-in page of task #2.
-- `css/styles.css`: The CSS file for styling the task #2 pages.
+![Log In](/task%232/log_in.jpeg)
