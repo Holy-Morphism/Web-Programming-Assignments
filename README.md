@@ -8,10 +8,10 @@
 
 ### Task 2
 
-## Sign In
+#### Sign In
 
 ![Sign In](CA_W4_C1_C2/task%232/sign_in.png)
 
-## Log In
+#### Log In
 
 ![Log In](CA_W4_C1_C2/task%232/log_in.png)
