@@ -1,5 +1,7 @@
-# Web Programming Assigments
+# Web Programming
 
-## [Assignemnt 1](https://github.com/Holy-Morphism/Web-Programming-Assignments/tree/assignment1)
+## [Class Activity](https://github.com/Holy-Morphism/Web-Programming-Assignments/tree/class-activity)
 
-## [Assignemnt 2](https://github.com/Holy-Morphism/Web-Programming-Assignments/tree/assignment2)
+## [Assignment 1](https://github.com/Holy-Morphism/Web-Programming-Assignments/tree/assignment1)
+
+## [Assignment 2](https://github.com/Holy-Morphism/Web-Programming-Assignments/tree/assignment2)
