@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Log In</title>
+  </head>
+  <body>
+    <form>
+      <h1>Log In</h1>
+      <p>Don't have an account? <a href="sign_in.html">Sign Up</a></p>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+
+      <button type="submit">Log In</button>
+    </form>
+
+    <script>
+      var username = document.getElementById("username");
+      var password = document.getElementById("password");
+
+      username.addEventListener("input", () => {
+        if (username.value.length === "") {
+          username.setCustomValidity(
+            "Oh, leaving the username blank? Keeping your online identity a mystery, I see."
+          );
+        } else if (username.value.length < 3) {
+          username.setCustomValidity(
+            "Username must be greater than 3 characters"
+          );
+        } else {
+          username.setCustomValidity("");
+        }
+      });
+
+      password.addEventListener("input", () => {
+        if (password.value === "") {
+          password.setCustomValidity(
+            "Skipping the password? Because who needs security, right?"
+          );
+        } else if (
+          password.value.match(
+            "/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$/"
+          )
+        ) {
+          password.setCustomValidity(
+            "Password should be of\n 8 characters\n,1 special,\n1 number"
+          );
+        } else {
+          password.setCustomValidity("");
+        }
+      });
+    </script>
+  </body>
+</html>
