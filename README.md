@@ -2,16 +2,12 @@
 
 ## Week 4 Class 1 & Class 2
 
-## Task 1
+### Task 1
 
-![Fivver Landing Page](/task%231/index.jpeg)
+![Fivver Landing Page](CA_W4_C1_C2/task%231/index.jpeg)
 
-## Task 2
+### Task 2
 
-### Sign In
+![Sign In](CA_W4_C1_C2/task%232/sign_in.jpeg)
 
-![Sign In](/task%232/sign_in.jpeg)
-
-### Log In
-
-![Log In](/task%232/log_in.jpeg)
+![Log In](CA_W4_C1_C2/task%232/log_in.jpeg)
