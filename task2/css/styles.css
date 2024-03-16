@@ -74,6 +74,7 @@ button[type="submit"] {
   font-family: "Poppins", sans-serif;
   display: block;
   width: 100%;
+  margin: 1rem 0rem;
   padding: 1rem;
   color: var(--4th-color);
   background-color: var(--1st-color);
@@ -94,5 +95,14 @@ button[type="submit"]:active {
 
 #weatherbox {
   width: auto;
-  height: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img {
+  width: auto;
+  height: 100px;
 }
