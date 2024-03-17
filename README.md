@@ -5,3 +5,5 @@
 ## [Assignment 1](https://github.com/Holy-Morphism/Web-Programming-Assignments/tree/assignment1)
 
 ## [Assignment 2](https://github.com/Holy-Morphism/Web-Programming-Assignments/tree/assignment2)
+
+## [Assignment 3](https://github.com/Holy-Morphism/Web-Programming-Assignments/tree/assignment3)
