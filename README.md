@@ -2,12 +2,16 @@
 
 ## Portfolio
 
-![Portfolio Image](image.png)
+![Portfolio Image](portfolio.png)
 
 ## Weather App
 
-![Weather App Image](image-1.png)
+![Weather App Image](weatherapp.png)
 
 ## Simple Clock
 
-![Clock](image-2.png)
+![Clock](time.png)
+
+## Rock,Paper,Scissors
+
+![Rock,Paper,Scissors](game.png)
